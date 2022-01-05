@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:text= "This is home screen"
+        android:textSize= "35dp"/>
+
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="234dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:text="Go back to main screen"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
